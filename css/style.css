@@ -1,5 +1,15 @@
 
+@font-face {
+    font-family: 'aleoregular';
+    src: url('../font/aleo/Aleo-Regular-webfont.eot');
+    src: url('../font/aleo/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/aleo/Aleo-Regular-webfont.woff') format('woff'),
+         url('../font/aleo/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('../font/aleo/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 /*
 | ----------------------------------------------------------------------------------------------
 | HOME PAGE IE8  Fixed
@@ -48,7 +58,8 @@ html {
 	font-size: 100%;
 }
 body {
-	font-family: 'Lato', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'aleoregular';
 	font-weight: normal;
 	font-size: 100%;
 	color: #fff;
@@ -59,7 +70,8 @@ body {
 	outline:none !important;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Lato', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'aleoregular';
 	font-weight: 800;
 	color:#000;
 }
@@ -270,7 +282,7 @@ a:hover {
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 .main-menu {
 	float: right;
@@ -333,7 +345,9 @@ a:hover {
 */
 
 
-
+#portfolio{
+	padding-top: 170px;
+}
 #portfolio, #office-location {
 	 
 }
@@ -372,7 +386,7 @@ a:hover {
 */
 
 #Services {
-	padding:0 0 50px 0 !important;
+	padding:170px 0 50px 0 !important;
 }
 .home-slider {
 	margin-top: -100px;
@@ -1098,7 +1112,8 @@ article.numbers li img:hover {
 
 
 #office-location {
-	padding-top: 70px;
+	padding-top: 130px;
+	background: #000;
 }
 .maps-row img {
 	width:100%;
@@ -1179,7 +1194,9 @@ article.numbers li img:hover {
 */
 
 
-
+#our-clients{
+	padding-top: 170px;
+}
 #our-clients table td img {
 	width: 100% !important;
 }
@@ -1422,6 +1439,7 @@ tr.last td .wrap-span:before {
 
 #contact {
 	min-height:900px;
+	padding-top: 170px;
 }
 #contact .section-header h2 {
 	display:inline-block;
@@ -1536,8 +1554,8 @@ tr.last td .wrap-span:before {
 | ----------------------------------------------------------------------------------------------
 */
 .page-footer {
-	background: none repeat scroll 0 0 #E32235;
-	border-top: 2px solid #D4192C;
+	background: none repeat scroll 0 0 #000;
+	border-top: 2px solid #333;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -1763,7 +1781,7 @@ tr.last td .wrap-span:before {
 | ----------------------------------------------------------------------------------------------
 */
 .section-red {
-	background: none repeat scroll 0 0 #E32235;
+	background: none repeat scroll 0 0 #000;
 }
 /*
 | ----------------------------------------------------------------------------------------------
