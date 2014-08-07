@@ -630,6 +630,9 @@ jQuery(function ($) {
     //  Contact us form submit
    /////////////////////////////////////
    
+   
+   
+   
     function submit_form(e) {
         var $form = $(e.target),
             $btn = $form.find('button'),
@@ -646,17 +649,10 @@ jQuery(function ($) {
             },
             success: function (result) {
                 if (typeof result.success == 'undefined') {
-                    var msg_error = '';
-                    var result = result[0];
-                    if ("name" in result) { msg_error = result.name; }
-                    if ("message" in result) { msg_error = result.message; }
-                    if ("email" in result) { msg_error = result.email; }
-                    $('#contact_fail .alert-inner').append('<p>' + msg_error + '</p>');
                     // form is not valid, display errors
-                    // for (var x in result) {
-
-                        // $('#contact_fail .alert-inner').append('<p>' + result[x] + '</p>');
-                    // }
+                    for (var x in result) {
+                        $('#contact_fail .alert-inner').append('<p>' + result[x] + '</p>');
+                    }
                     $('#contact_fail').fadeIn();
                 } else {
                     // form sent successfully and without errors
