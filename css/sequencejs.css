@@ -530,9 +530,10 @@ background-image:url('http://timedotcom.files.wordpress.com/2014/02/131966381.jp
 }
 #sequence ul li .slide-text p {
 	
-	color: #FFFFFF;
+	color: #FF1C32;
     font-size: 32px;
     font-weight: 300;
+    text-shadow:1px 1px 1px #000;
 }
 @media all and (max-width: 1024px) {
 #sequence ul li .slide-title {
