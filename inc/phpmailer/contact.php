@@ -14,10 +14,10 @@
 -------------------------------------------- */
 function init_mail()
 {
-	$host = '';			// Set the hostname of the mail server
-	$port = 25;						// Set the SMTP port number - likely to be 25, 465 or 587
-	$username = '';	// Username to use for SMTP authentication
-	$password = '';			// Password to use for SMTP authentication
+	$host = 'smtp.gmail.com';			// Set the hostname of the mail server
+	$port = 587;						// Set the SMTP port number - likely to be 25, 465 or 587
+	$username = 'admin@newhustlemedia.com';	// Username to use for SMTP authentication
+	$password = 'admin2014';			// Password to use for SMTP authentication
 
 	//Create a new PHPMailer instance
 	$mail = new PHPMailer;
@@ -31,7 +31,7 @@ function init_mail()
 		1 : Client Message
 		2 : Server and Client Message
 	*/
-	$mail->SMTPDebug  = 1;
+	$mail->SMTPDebug  = 2;
 	$mail->Host = $host;
 	$mail->Port = $port;
 	//Whether to use SMTP authentication
@@ -42,10 +42,10 @@ function init_mail()
 	return $mail;
 }
 
-$configs['to'] = 'info@themina.net';			// who should recieve the contact form data
-$configs['to_name'] = 'TeamIdea';			// who should recieve the contact form data
-$configs['from'] = 'noreply@themina.net';		// Set who the thanks message is to be sent from
-$configs['from_name'] = 'Shopfast';
+$configs['to'] = 'admin@newhuslemedia.com';			// who should recieve the contact form data
+$configs['to_name'] = 'Admin NHM';			// who should recieve the contact form data
+$configs['from'] = 'mauro@mediatrends.cl';		// Set who the thanks message is to be sent from
+$configs['from_name'] = 'MT Admin';
 $configs['thanks_subject'] = 'Thanks';			// Set the subject line of thank message
 // Set HTML Content to send
 $configs['thanks_body'] = '<h3>Thank you, </h3><p>this message means that we recieved your comment.</p>';
