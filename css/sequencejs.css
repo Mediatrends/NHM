@@ -160,7 +160,7 @@ background-image:url('http://timedotcom.files.wordpress.com/2014/02/131966381.jp
 
 
 .slide-title a:hover{
-	background:#E32235;
+	background:#ECC000;
 	color:#fff;
 	text-decoration:none;
 	
@@ -530,7 +530,7 @@ background-image:url('http://timedotcom.files.wordpress.com/2014/02/131966381.jp
 }
 #sequence ul li .slide-text p {
 	
-	color: #FF1C32;
+	color: #ECC000;
     font-size: 32px;
     font-weight: 300;
     text-shadow:1px 1px 1px #000;

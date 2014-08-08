@@ -40,7 +40,7 @@
 .btn-info.active,
 .btn-warning.active,
 .btn-danger.active {
-	background:none repeat scroll 0 0 #FF1C32;
+	background:none repeat scroll 0 0 #ECC000;
 }
 
 .btn:active,
@@ -57,14 +57,14 @@
 }
 
 .btn-primary {
-	background: #ff1c32;
+	background: #ECC000;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-	background: #ff1c32;
+	background: #ECC000;
 	border-color: #1f9150;
 }
 
@@ -436,7 +436,7 @@ position:relative;
 blockquote {
 	margin: 20px 0;
 	border:1px solid #e0e0e0;
-	border-left:5px solid #FF1C32;
+	border-left:5px solid #ECC000;
 	padding: 20px;
 }
 blockquote p {

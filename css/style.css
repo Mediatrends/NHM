@@ -133,7 +133,7 @@ label.placeholder {
 .form-group .required:after {
 	content: '*';
 	margin-left: 5px;
-	color: #ff1c32;
+	color: #ECC000;
 }
 .placeholder.hide-label {
 	display: none;
@@ -225,7 +225,7 @@ a, a:hover {
 	text-decoration: none;
 }
 a {
-	color: #FF1C32;
+	color: #ECC000;
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -233,7 +233,7 @@ a {
 	transition: all 0.2s ease-out;
 }
 a:hover {
-	color: #FF1C32;
+	color: #ECC000;
 }
 /*
 | ----------------------------------------------------------------------------------------------
@@ -326,17 +326,17 @@ a:hover {
 	text-align: center;
 }
 .main-menu > li > a:hover, .main-menu > .hover > a {
-	color:#e32235;
+	color:#ECC000;
 }
 .main-menu > li.current > a {
-	color:#e32235;
+	color:#ECC000;
 	text-decoration:none;
 }
 #mobile-menu {
 	float: right;
 }
 .sticky #mobile-menu button {
-	background: none repeat scroll 0 0 #FF1C32;
+	background: none repeat scroll 0 0 #ECC000;
 }
 /*
 | ----------------------------------------------------------------------------------------------
@@ -369,7 +369,7 @@ a:hover {
 	text-transform: uppercase;
 }
 .section-header .heading:before, .section-header .heading:after {
-	color: #ff1c32;
+	color: #ECC000;
 	position: relative;
 	top: -2px;
 }
@@ -415,7 +415,7 @@ a:hover {
 
 
 .tab-content  .big-icon {
-    color: #FF1C32;
+    color: #ECC000;
     display: block;
     font-size: 100px;
     margin-bottom: 20px;
@@ -425,10 +425,10 @@ a:hover {
 	border:none;
 }
 #Services .nav-tabs > li.active > a, #Services .list-service li.active span {
-	color: #FF1C32;
+	color: #ECC000;
 }
 html .big-icon {
-	color: #FF1C32;
+	color: #ECC000;
 	font-size: 100px;
 }
 .service {
@@ -571,7 +571,7 @@ html .big-icon {
 	display: inline-block;
 }
 .portfolio-filter > li .btn-primary {
-	background: none repeat scroll 0 0 #FF1C32;
+	background: none repeat scroll 0 0 #ECC000;
 	-webkit-transform: scale(1.25);
 	-moz-transform: scale(1.25);
 	-o-transform: scale(1.25);
@@ -580,7 +580,7 @@ html .big-icon {
 	position:relative;
 }
 .portfolio-filter .boxshadow .btn:hover {
-	background:#ff1c32;
+	background:#ECC000;
 	-webkit-box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3);
 	box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3);
 }
@@ -642,7 +642,7 @@ html .big-icon {
 	
 }
 .portfolio-navigation .pages > .active {
-	background: #ff1c32;
+	background: #ECC000;
 }
 .portfolio-item {
 	position: relative;
@@ -701,7 +701,7 @@ html .big-icon {
 	font-size: 22px;
 	text-align: center;
 	color: #fff;
-	background: #ff1c32;
+	background: #ECC000;
 	border-left: 1px solid #fff;
 	border-bottom: 4px solid transparent;
 }
@@ -763,7 +763,7 @@ html .big-icon {
 	;
 }
 .item-hover .vertical-center .btn {
-	background: none repeat scroll 0 0 #FF1C32;
+	background: none repeat scroll 0 0 #ECC000;
 	color: #FFFFFF;
 	padding: 5px 15px;
 	text-transform: uppercase;
@@ -959,7 +959,7 @@ article.numbers li img:hover {
 .team-member .social > li > a:hover {
 	background: none repeat scroll 0 0 #FFFFFF;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-	color: #FF1C32;
+	color: #ECC000;
 }
 .team-member .desc-det {
 	height: 95px;
@@ -974,7 +974,7 @@ article.numbers li img:hover {
 	width: 100%;
 	height: 100%;
 	padding: 20px 20px 25px;
-	background: #ff1c32;
+	background: #ECC000;
 	color: #fff;
 	border-radius: 2px;
 	opacity: 0;
@@ -1181,10 +1181,10 @@ article.numbers li img:hover {
 	margin: 0;
 }
 .pricing.active {
-	color: #ff1c32;
+	color: #ECC000;
 }
 .pricing.active .header, .pricing.active .footer > a {
-	background: #ff1c32;
+	background: #ECC000;
 	color: #fff;
 }
 /*
@@ -1322,7 +1322,7 @@ tr.last td .wrap-span:before {
 	margin-right: 5px;
 }
 .blog-post .author > a {
-	color: #ff1c32;
+	color: #ECC000;
 }
 .blog-post .author > a:hover {
 	text-decoration: underline;
@@ -1373,7 +1373,7 @@ tr.last td .wrap-span:before {
 */
 .tweet-wrapper {
 	padding: 10px 0;
-	background: #ff1c32;
+	background: #ECC000;
 }
 .tweet-frame {
 	position: relative;
@@ -1465,7 +1465,7 @@ tr.last td .wrap-span:before {
 #contact-form .form-group .required:after,#contact-form2 .form-group .required:after {
 	content: '*';
 	margin-left: 5px;
-	color: #ff1c32;
+	color: #ECC000;
 }
 .section-nightblue #contact-form .form-group input[type="text"], .section-nightblue #contact-form .form-group input[type="password"], .section-nightblue #contact-form .form-group input[type="email"], .section-nightblue #contact-form .form-group select, .section-nightblue #contact-form .form-group textarea {
 	background: #2d4053;
@@ -1525,7 +1525,7 @@ tr.last td .wrap-span:before {
 	text-align:center;
 }
 .item-connected .glyph-item, .item-connected span[class*="icon-"] {
-	color: #FFFFFF;
+	color: #ecc000;
 	display: block;
 	font-size: 80px;
 	height: 110px;
@@ -1579,7 +1579,7 @@ tr.last td .wrap-span:before {
 	font-size: 1.25em;
 }
 .page-footer .social a:hover {
-	background: #ff1c32;
+	background: #ECC000;
 }
 /*
 | ----------------------------------------------------------------------------------------------
@@ -1636,7 +1636,7 @@ tr.last td .wrap-span:before {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	background: #ff1c32;
+	background: #ECC000;
 	color: #fff;
 	font-size: 18px;
 	text-align: center;
@@ -1721,7 +1721,7 @@ tr.last td .wrap-span:before {
 .sly_scrollbar .handle {
 	width: 75px;
 	height: 100%;
-	background: #ff1c32;
+	background: #ECC000;
 	margin: 0;
 	cursor: pointer;
 	
@@ -1731,8 +1731,8 @@ tr.last td .wrap-span:before {
 .blockquote {
 	position: relative;
 	border: 0;
-	background: #ff1c32;
-	background-color: #FF1C32;
+	background: #ECC000;
+	background-color: #ECC000;
 	background-image: url("../img/circle.png");
 	background-position: center center;
 	background-repeat: repeat;
